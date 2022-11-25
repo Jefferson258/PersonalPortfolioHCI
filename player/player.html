@@ -1,0 +1,50 @@
+<html>
+<head>
+   <title>Music Player</title>
+   <link rel="stylesheet" type="text/css" href="ipod.css"/>
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+   <div id="screen">
+     <div class="head-bar">
+      <a href="songs.html">
+        <div class="back-button"><i class="material-icons player-back-arrow">arrow_back</i></div>
+      </a>
+   </div>
+      <img src="images/cave.jpeg" alt="Currents Album Cover" class="player-album-cover"/>
+   <div>
+      <p class="player-song-title" id="song-title">Let's Go Up</p>
+      <p  class="player-album-title"><em>The Vatican</em> - Code</p>
+   </div>
+   <input type="range" value="0" min="0" max="180" class="song-duration-bar" id="song-duration-bar">
+   <div class="timer-container">
+      <div id="current-time">0:00</div>
+      <div>3:00</div>
+   </div>
+   <div class="song-control-container">
+      <button id="prev-btn"><i class="material-icons">skip_previous</i></button>
+      <button id="switch-btn"><i class="material-icons">play_arrow</i></button>
+      <button id="next-btn"><i class="material-icons">skip_next</i></button>
+   </div>
+   <div class="volume-level-container" id="volume-level-container">
+      <i class="material-icons">volume_down</i>
+      <div id="vl0" class="volume-level"></div>
+      <div id="vl1" class="volume-level"></div>
+      <div id="vl2" class="volume-level"></div>
+      <div id="vl3" class="volume-level"></div>
+      <div id="vl4" class="volume-level"></div>
+      <div id="vl5" class="volume-level"></div>
+   </div>
+   <div class="volume-btn-container">
+      <button id="volume-down" class="volume-btn">&mdash;</button>
+      <button id="volume-up" class="volume-btn">+</button>
+   </div>
+
+</div>
+<script src="ipod.js"></script>
+</body>
+</html>
+<!--
+* bg iphone img is 363x762px
+* iphone 'screen' is apprx 300x530 -->

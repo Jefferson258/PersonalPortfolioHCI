@@ -1,0 +1,121 @@
+.background {
+    background-color: gray;
+    border-radius: 4rem;
+    margin-bottom: 50px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 50rem;
+    background-image: url("tj.png");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-color: black;
+    border-radius: 4rem;
+    width: 67%;
+    margin-left: 17%;
+    color: white;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    position: fixed;
+    background-color: orange;
+    border-radius: 4rem;
+}
+
+.section-title {
+    margin: auto;
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+
+.grid-container {
+    display: grid;
+    margin: 4rem;
+    border-radius: 4rem;
+    background-color: black;
+    grid-template-areas: 'contact contact'
+                         'projects projects'
+                         'projects projects'
+                         'projects projects'
+                         'resume bio';
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.projects {
+    grid-area: projects;
+    justify-content: space-evenly;
+    background-color: blue;
+    margin: 4rem;
+    border-radius: 4rem;
+}
+
+.contact {
+    grid-area: contact;
+}
+
+.resume {
+    grid-area: resume;
+}
+
+.bio {
+    grid-area: bio;
+}
+
+.terrains-pic {
+    height: 30rem;
+    border-radius: 5rem;
+    padding: 2rem;
+}
+
+.player-pic {
+    height: 30rem;
+    border-radius: 4rem;
+    padding: 2rem;
+}
+
+.contact {
+    align-items: center;
+    height: 20rem;
+    background-color: blue;
+    border-radius: 4rem;
+    margin: 4rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+  }
+
+.rest-container {
+    display: flex;
+    justify-content: space-evenly;
+    /* width: 100%; */
+    /* margin-left: 80%; */
+}
+
+.nice-button {
+    background-color: green;
+    height: 10rem;
+    width: 15rem;
+    font-size: 30px;
+    color: white;
+    margin-left: 150%;
+    margin-bottom: 50px;
+}
+

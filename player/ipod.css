@@ -1,0 +1,345 @@
+/*
+Global classes
+*/
+body {
+background-image: url("images/iphoneOL.jpg");
+background-repeat: no-repeat;
+font-family: Avenir, sans-serif;
+}
+
+
+#screen {
+height: 530px;
+width: 300px;
+margin: 105px 23px;
+}
+
+.head-bar {
+
+}
+
+.back-button {
+
+}
+/*
+Albums
+*/
+
+.albums-album-wrapper {
+
+}
+
+.albums-album-art {
+
+}
+
+.albums-album-name {
+
+}
+
+.albums-artist-name {
+
+}
+
+/*
+Songs
+*/
+.songs-info-wrapper {
+
+}
+
+.songs-album-art {
+
+}
+
+.songs-album-name {
+
+}
+
+.songs-artist-name {
+
+}
+
+.songs-text-info {
+
+}
+
+.songs-album-year {
+
+}
+
+.songs-list {
+
+}
+
+
+/*
+Player
+*/
+
+
+.player-album-art {
+
+}
+
+.player-song-info {
+
+}
+
+#player-song-name {
+
+}
+
+
+.volume-bar {
+
+}
+
+.volume-rocker {
+
+}
+
+.player-controls{
+
+}
+
+#player-time {
+
+}
+
+#time-elapsed {
+
+}
+
+#time-total{
+
+}
+
+/*
+Global classes
+*/
+body {
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: Avenir, sans-serif;
+}
+
+
+#screen {
+	height: 530px;
+	width: 300px;
+	margin: 105px 23px;
+}
+
+.head-bar {
+	width: 363px;
+	height: 45px;
+	background-color: #5F939A;
+	color: white;
+	width: 300px;
+	font-weight: 500;
+	margin-top: 5px;
+}
+
+.songs-top-bar {
+	margin-left: 10px;
+	margin-bottom: 100px;
+}
+.center{
+	text-align: center;
+	margin-top: 50px;
+	/* margin-bottom: -10px; */
+	justify-content: center;
+	text-shadow: 2px 2px #000000;
+	vertical-align: bottom;
+
+}
+
+.grid-container {
+	margin: 1rem;
+	font-family: Avenir;
+	font-size: 0.9rem;
+	display: grid;
+	gap: 2.5rem;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 200px 200px;
+}
+
+.grid1 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.grid2 {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.grid3 {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+.grid4 {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+.album-title {
+	text-align: center;
+	height: 10px;
+}
+
+.album-artist {
+	text-align: center;
+	height: 10px;
+	font-style: italic;
+	color: gray;
+	font-weight: 100;
+}
+
+.regular {
+	color: black;
+}
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
+
+.songs-grid-container {
+	margin: 1rem;
+	font-family: Avenir;
+	font-size: 0.9rem;
+	display: grid;
+	gap: 1rem;
+	grid-template-columns: 1fr 1fr;
+}
+
+.songs-album-cover {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.song-info {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+.songs-artist-name {
+	font-style: italic;
+	font-weight: 200;
+}
+
+.songs-album-year {
+	font-weight: 500;
+}
+
+.left-arrow {
+	color: white;
+}
+
+.list-element {
+	border:1px solid gray;
+	padding-top: 5px;
+	margin-top: 5px;
+	margin-right: 20px;
+}
+
+.list-element:hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+.list {
+	margin-top: -30px;
+}
+
+.album-image {
+	width: 7rem;
+	height: 7rem;
+}
+
+.player-album-cover {
+	width: 250px;
+	height: 250px;
+	margin-left: 25px;
+	margin-top: 25px;
+}
+
+.player-song-title {
+	width: 250px;
+	margin-left: 100px;
+	height: 5px;
+}
+
+.player-album-title {
+	width: 250px;
+	margin-left: 25%;
+	color: rgb(95, 147, 154);
+	height: 10px;
+}
+
+.song-duration-bar {
+	margin-left: 5%;
+	width: 88%;
+}
+
+.timer-container {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 5%;
+	width: 88%;
+}
+
+.player-back-arrow {
+	margin-top: 3%;
+	color: white;
+}
+
+.song-control-container {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 28%;
+	width: 30%;
+}
+
+.volume-btn-container {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 10%;
+	width: 80%;
+}
+
+.volume-btn {
+	width: 30%;
+}
+
+.volume-level {
+	height: 6px;
+	width: 24px;
+	border: 1px solid #616161;
+	margin-top: 3.5%;
+}
+
+.volume-level-container {
+	display: flex;
+	justify-content: space-between;
+	margin-left: 8%;
+	width: 80%;
+}
