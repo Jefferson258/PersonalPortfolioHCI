@@ -51,6 +51,49 @@
     display: flex;
     justify-content: space-evenly;
 }
+.terrains-pic {
+    height: 30rem;
+    border-radius: 5rem;
+    padding: 2rem;
+}
+
+.player-pic {
+    height: 30rem;
+    border-radius: 4rem;
+    padding: 2rem;
+}
+
+.contact {
+    align-items: center;
+    height: 20rem;
+    background-color: blue;
+    border-radius: 4rem;
+    margin: 4rem;
+}
+
+@media (max-width: 1250px) {
+    .projects-container {
+        width: 500px;
+        height: 250px;
+    }
+
+    .contact {
+        width: 500px;
+        height: 500px;
+    }
+
+    .player-pic {
+        height: 10rem;
+    }
+
+    .terrains-pic {
+        height: 10rem;
+    }
+
+    .contact-point {
+        font-size: smaller;
+    }
+}
 
 .contact-container {
     display: flex;
@@ -77,25 +120,7 @@
     grid-area: bio;
 }
 
-.terrains-pic {
-    height: 30rem;
-    border-radius: 5rem;
-    padding: 2rem;
-}
 
-.player-pic {
-    height: 30rem;
-    border-radius: 4rem;
-    padding: 2rem;
-}
-
-.contact {
-    align-items: center;
-    height: 20rem;
-    background-color: blue;
-    border-radius: 4rem;
-    margin: 4rem;
-}
 
 a {
     color: white;
@@ -105,8 +130,6 @@ a {
 .rest-container {
     display: flex;
     justify-content: space-evenly;
-    /* width: 100%; */
-    /* margin-left: 80%; */
 }
 
 .nice-button {
@@ -115,7 +138,7 @@ a {
     width: 15rem;
     font-size: 30px;
     color: white;
-    margin-left: 150%;
+    /* margin-left: 150%; */
     margin-bottom: 50px;
 }
 
