@@ -70,11 +70,18 @@
     border-radius: 4rem;
     margin: 4rem;
 }
+.projects {
+    grid-area: projects;
+    justify-content: space-evenly;
+    background-color: blue;
+    margin: 4rem;
+    border-radius: 4rem;
+}
 
 @media (max-width: 1250px) {
-    .projects-container {
+    .projects {
         width: 500px;
-        height: 250px;
+        height: 450px;
     }
 
     .contact {
@@ -98,14 +105,6 @@
 .contact-container {
     display: flex;
     justify-content: space-evenly;
-}
-
-.projects {
-    grid-area: projects;
-    justify-content: space-evenly;
-    background-color: blue;
-    margin: 4rem;
-    border-radius: 4rem;
 }
 
 .contact {
